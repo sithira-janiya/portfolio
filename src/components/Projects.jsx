@@ -31,7 +31,7 @@ function Projects() {
       ],
       color: "from-purple-500 to-pink-500",
       icon: "💼",
-      github: "https://github.com/Imesh-Bandar/The-NextStep-Platform.git",
+      github: "https://github.com/sithira-janiya/The-NextStep-Platform.git",
       live: "https://the-nextstep-platform-production.up.railway.app/",
     },
     {
@@ -53,7 +53,7 @@ function Projects() {
       color: "from-emerald-500 to-teal-500",
       icon: "🏫",
       github:
-        "https://github.com/Imesh-Bandar/it3030-paf-2026-smart-campus-group-PAF_WE_03_02.git",
+        "https://github.com/sithira-janiya/it3030-paf-2026-smart-campus-group-PAF_WE_03_02.git",
       live: null,
     },
     {

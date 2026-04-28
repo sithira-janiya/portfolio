@@ -97,7 +97,7 @@ function Contact() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <a
-            href="/Sithira_Janiya_CV.pdf"
+            href="/Sithira_Janiya.pdf"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold hover:from-blue-600 hover:to-purple-700 transition shadow-lg"

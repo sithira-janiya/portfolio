@@ -31,7 +31,7 @@ function Footer() {
       icon: FaEnvelope,
     },
     { label: "Phone", href: "tel:+94704174576", icon: FaPhoneAlt },
-    { label: "CV", href: "/Sithira_Janiya_CV.pdf", icon: FaFilePdf },
+    { label: "CV", href: "/Sithira_Janiya.pdf", icon: FaFilePdf },
   ];
 
   return (
