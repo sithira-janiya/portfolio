@@ -163,11 +163,7 @@ function Projects() {
                     >
                       <FaExternalLinkAlt /> Live Demo
                     </a>
-                  ) : (
-                    <span className="flex items-center gap-2 px-6 py-3 border-2 border-gray-300 text-gray-400 rounded-lg cursor-not-allowed font-semibold">
-                      <FaExternalLinkAlt /> Demo Unavailable
-                    </span>
-                  )}
+                  ) : null}
                 </div>
               </div>
             </div>
