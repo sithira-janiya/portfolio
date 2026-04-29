@@ -9,11 +9,14 @@ import {
   FaDocker,
   FaCss3Alt,
   FaHtml5,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiSpringboot,
   SiMongodb,
   SiPostgresql,
+  SiPostman,
+  SiGithubactions,
   SiTailwindcss,
 } from "react-icons/si";
 
@@ -52,12 +55,16 @@ function Skills() {
       ],
     },
     {
-      category: "Tools & Others",
+      category: "DevOps & Tools",
       icon: FaGitAlt,
       color: "from-orange-500 to-red-500",
       skills: [
         { name: "Git", icon: FaGitAlt },
+        { name: "GitHub", icon: FaGithub },
+        { name: "GitHub Actions", icon: SiGithubactions },
         { name: "Docker", icon: FaDocker },
+        { name: "Postman (API testing)", icon: SiPostman },
+        { name: "CI/CD", icon: FaGitAlt },
       ],
     },
   ];
@@ -121,7 +128,18 @@ function Skills() {
           })}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-xl p-8 md:p-12 text-white text-center">
+        <div className="mt-12 flex items-center justify-center gap-3">
+          <a
+            href="https://github.com/sithira-janiya"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 text-white border border-white/10 hover:bg-white/10 transition"
+          >
+            <FaGithub /> View my GitHub profile
+          </a>
+        </div>
+
+        <div className="mt-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-xl p-8 md:p-12 text-white text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-3">
             Continuous Learning
           </h3>
@@ -129,6 +147,123 @@ function Skills() {
             I'm always exploring new technologies and frameworks to stay updated
             with the latest industry trends and best practices.
           </p>
+        </div>
+
+        <div className="mt-12">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-gray-800">
+              Related Projects
+            </h3>
+            <p className="text-gray-600 mt-2">
+              Projects where I applied these technologies
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-100">
+              <h4 className="font-semibold text-lg mb-2">
+                StayMate — Boarding House System
+              </h4>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  MongoDB
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Express
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  React
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Node.js
+                </span>
+              </div>
+              <a
+                href="https://github.com/sithira-janiya/stay_mate.git"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-blue-600"
+              >
+                View on GitHub
+              </a>
+            </div>
+
+            <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-100">
+              <h4 className="font-semibold text-lg mb-2">
+                NextStep — Job Portal
+              </h4>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Node.js
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  PostgreSQL
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Next.js
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Tailwind CSS
+                </span>
+              </div>
+              <a
+                href="https://github.com/sithira-janiya/The-NextStep-Platform.git"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-blue-600"
+              >
+                View on GitHub
+              </a>
+            </div>
+
+            <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-100">
+              <h4 className="font-semibold text-lg mb-2">
+                Smart Campus Operations Hub
+              </h4>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Spring Boot
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  React
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  TypeScript
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  PostgreSQL
+                </span>
+              </div>
+              <a
+                href="https://github.com/sithira-janiya/it3030-paf-2026-smart-campus-group-PAF_WE_03_02.git"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-blue-600"
+              >
+                View on GitHub
+              </a>
+            </div>
+
+            <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-100">
+              <h4 className="font-semibold text-lg mb-2">Club Master</h4>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  React
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                  Node.js
+                </span>
+              </div>
+              <a
+                href="https://github.com/sithira-janiya/club-master.git"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-blue-600"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
