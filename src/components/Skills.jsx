@@ -51,7 +51,14 @@ function Skills() {
       skills: [
         { name: "MySQL", icon: FaDatabase },
         { name: "MongoDB", icon: SiMongodb },
+        { name: "MongoDB Atlas", icon: SiMongodb },
         { name: "PostgreSQL", icon: SiPostgresql },
+        { name: "NoSQL Databases", icon: FaDatabase },
+        { name: "Data Modeling", icon: FaDatabase },
+        { name: "CRUD Operations", icon: FaDatabase },
+        { name: "Aggregation Pipelines", icon: SiMongodb },
+        { name: "Database Indexing", icon: FaDatabase },
+        { name: "MongoDB Java Driver", icon: SiMongodb },
       ],
     },
     {
