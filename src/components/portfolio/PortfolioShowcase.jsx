@@ -198,7 +198,7 @@ function PortfolioShowcase() {
               </a>
               <a
                 className="btn btn-secondary"
-                href="/Sithira_Janiya.pdf"
+                href="/Sithira_Janiya_CV.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -356,7 +356,7 @@ function PortfolioShowcase() {
               </a>
               <a
                 className="mini-link"
-                href="/Sithira_Janiya.pdf"
+                href="/Sithira_Janiya_CV.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -473,7 +473,7 @@ function PortfolioShowcase() {
             <div className="contact-actions">
               <a
                 className="btn btn-primary"
-                href="/Sithira_Janiya.pdf"
+                href="/Sithira_Janiya_CV.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
